@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-function Project_App({ history })
+function Project({ history })
 {
     return (
         <Container>
@@ -19,7 +19,7 @@ function Project_App({ history })
     );
 }
 
-export default Project_App;
+export default Project;
 
 const Container = styled.div`
     padding: 30px;
